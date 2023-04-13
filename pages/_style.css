@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+
+html, body {
+  padding: 0;
+  margin: 0;
+  transition: .2s;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body[theme="dark"] {
+  background-color: #242424ff;
+}
+body[theme="dark"] * {
+  color: #ffffff;
+}
+
+.response {
+  width: 100%;
+  max-width: 1050px;
+  margin: auto;
+}
+.center-box {
+  padding: 9px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
